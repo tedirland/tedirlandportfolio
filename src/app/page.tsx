@@ -14,12 +14,16 @@ export default function Home() {
     "Python",
   ];
   return (
-    <main className="flex min-h-screen flex-col items-center  p-20">
+    <main className="flex flex-auto  flex-col items-center pt-3 p-20">
       <div className="mt-2 block mb-5 font-bold">
         <h1>Professional Experience</h1>
       </div>
 
-      <Accordion isCompact variant="shadow" selectionBehavior="replace">
+      <Accordion
+        className="flex-auto"
+        variant="shadow"
+        selectionBehavior="replace"
+      >
         <AccordionItem
           key="1"
           subtitle="Details"
@@ -87,10 +91,41 @@ export default function Home() {
           aria-label="Accordion 3"
           title="CareerBuilder | Inside Sales Manager | July 2010 - March 2014"
         >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ipsam
-          facere doloremque minima saepe molestiae fuga illo, perspiciatis
-          voluptates repellat omnis sed modi reiciendis est accusantium eius
-          explicabo nihil nostrum?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ipsam
+          fuga? Sint minus laboriosam fugiat ducimus aut ipsum, quaerat maiores
+          suscipit, ab tempore accusamus, nostrum nam quo esse eaque quibusdam.
+          Eveniet reprehenderit mollitia illo id tempore laudantium veniam, at
+          possimus omnis quae officiis assumenda. Tempora eaque, aliquam
+          accusamus magnam assumenda temporibus facilis molestiae consectetur
+          debitis recusandae repudiandae, saepe iste commodi! Voluptas debitis,
+          quo illo voluptatem perspiciatis vero voluptatum nulla rem eaque
+          ratione vel obcaecati aliquid maxime non dicta. Cum, porro dolore. Sit
+          alias eligendi, eveniet error atque ea velit porro? Iure
+          necessitatibus harum quod quidem laborum praesentium omnis mollitia
+          soluta ducimus, ex eligendi assumenda. Commodi vel ratione facere
+          incidunt quo officiis cum ad quod, sapiente modi nobis, eveniet
+          inventore reprehenderit! Suscipit quibusdam at obcaecati? Officia
+          voluptate necessitatibus nemo ratione inventore quam unde error sint
+          saepe totam harum laudantium fuga, ipsam quaerat at tempora blanditiis
+          minus aspernatur deleniti itaque maiores? Vel? Soluta tenetur nam
+          quis, veritatis molestiae exercitationem laudantium repellat
+          voluptatum ab. Eaque velit laborum aperiam accusantium culpa
+          recusandae ullam harum est quaerat sed reprehenderit accusamus id, sit
+          similique et corrupti! Reiciendis in voluptas dicta commodi a
+          necessitatibus maiores vero temporibus perferendis minus officiis
+          blanditiis, dolor iusto similique possimus inventore accusantium. Sint
+          ea libero consequatur perferendis dicta! Libero qui voluptate harum?
+          Dolor error omnis incidunt ipsam aspernatur, porro, architecto
+          quisquam fugiat corporis tempore, assumenda numquam repellendus
+          voluptatibus id facilis odit nisi. Nam ad laudantium, temporibus a
+          consequatur soluta ab in vero. Quibusdam soluta facilis voluptate nemo
+          sint modi saepe expedita porro, sapiente voluptates, numquam id
+          laudantium, vel voluptatem labore libero aliquid. Accusantium
+          asperiores, in cupiditate fugiat cumque est assumenda! Quis, magni.
+          Beatae alias quisquam neque ut inventore officiis, vitae,
+          reprehenderit laborum, corporis voluptates amet placeat iusto eos
+          ullam odit dolorum labore provident! Laboriosam amet accusantium
+          facere blanditiis inventore sequi omnis natus?
         </AccordionItem>
       </Accordion>
     </main>
