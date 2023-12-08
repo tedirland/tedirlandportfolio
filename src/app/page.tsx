@@ -10,6 +10,7 @@ export default function Home() {
     "React",
     "Node.js",
     "LangChain",
+    "OpenAI",
     "REST APIs",
     "Python",
   ];

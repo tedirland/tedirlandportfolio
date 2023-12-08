@@ -16,7 +16,7 @@ import {
 
 export default function App() {
   return (
-    <Navbar shouldHideOnScroll>
+    <Navbar isBordered maxWidth="full" shouldHideOnScroll>
       <NavbarContent justify="start">
         <Link href="/">
           <User
