@@ -34,11 +34,6 @@ export default function App() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#" aria-current="page">
-            Resume / CV
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
           <Link color="foreground" href="#">
             References
           </Link>
